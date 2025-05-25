@@ -1,5 +1,4 @@
 import { gql, useQuery } from "@apollo/client";
-import client from "../lib/apolloClient";
 
 const GET_HOMEPAGE_CONTENT = gql`
   query {
